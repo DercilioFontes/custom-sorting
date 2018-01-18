@@ -7,7 +7,4 @@ array.sort(function(first, second) {
 console.log(array);
 
 
-
-
-
-// Read the above article and write JavaScript code to sort the array numerically (the sorted array should equal [1, 2, 5, 9, 10])
+// Write JavaScript code to sort the array numerically (the sorted array should equal [1, 2, 5, 9, 10])

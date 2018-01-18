@@ -5,16 +5,6 @@ var students = [
   { id: 4, name: "alex",     age: 30 }
 ];
 
-// var customComparator = function sortbyNamebyAge(first, second) {
-//   console.log(first.name);
-//   console.log(second.name);
-//   if (first.name < second.name) {
-//     return -1;
-//   } else {
-//     return first.age - second.age;
-//   }
-// }
-
 students.sort(function sortbyNamebyAge(first, second) {
   console.log(first.name);
   console.log(second.name);
