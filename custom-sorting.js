@@ -6,8 +6,6 @@ var students = [
 ];
 
 students.sort(function sortbyNamebyAge(first, second) {
-  console.log(first.name);
-  console.log(second.name);
   if (first.name < second.name) {
     return -1;
   } else if (first.name === second.name) {
